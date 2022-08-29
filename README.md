@@ -1,4 +1,4 @@
-## Discíplina de Experiência Criativa
+## Disciplina de Experiência Criativa
 
 ### Proto GDD:
 #### º 01
