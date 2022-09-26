@@ -4,8 +4,9 @@ using UnityEngine;
 public class Home_Icon : MonoBehaviour
 {
     [SerializeField] private GameObject menuPanel;
+    [SerializeField] private RectTransform dragRectTransform;
     private bool on = false;
-    
+
     public void ToggleMenuPanel()
     {
         on = !on;
