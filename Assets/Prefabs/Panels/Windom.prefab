@@ -180,10 +180,10 @@ GameObject:
   - component: {fileID: 2314852640232840548}
   - component: {fileID: 3704224573204021625}
   - component: {fileID: 4470052695155631270}
-  - component: {fileID: 6735301524001261906}
   - component: {fileID: 7118171629028945472}
   - component: {fileID: 6834107024729113248}
   - component: {fileID: 1906374197798413191}
+  - component: {fileID: 6735301524001261906}
   m_Layer: 5
   m_Name: Windom
   m_TagString: Untagged
@@ -249,19 +249,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &6735301524001261906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4906919173640451868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9de6a0fc697cf547840daacba638cdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dragRectTransform: {fileID: 0}
 --- !u!114 &7118171629028945472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,6 +294,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0.1764706, g: 0.13333334, b: 0.4745098, a: 1}
   m_EffectDistance: {x: -1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &6735301524001261906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906919173640451868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9de6a0fc697cf547840daacba638cdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragRectTransform: {fileID: 0}
 --- !u!1 &5196190429137842009
 GameObject:
   m_ObjectHideFlags: 0

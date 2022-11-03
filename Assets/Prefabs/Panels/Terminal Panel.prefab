@@ -1060,10 +1060,10 @@ GameObject:
   - component: {fileID: 4598284870012371482}
   - component: {fileID: 3213438251013070343}
   - component: {fileID: 2447900675545725912}
-  - component: {fileID: 4794355043860878892}
   - component: {fileID: 9023158587833758014}
   - component: {fileID: -950439495462562511}
   - component: {fileID: 7291091770923095881}
+  - component: {fileID: 4794355043860878892}
   m_Layer: 5
   m_Name: Terminal Panel
   m_TagString: Untagged
@@ -1129,19 +1129,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4794355043860878892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6622685579802077282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9de6a0fc697cf547840daacba638cdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dragRectTransform: {fileID: 0}
 --- !u!114 &9023158587833758014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1187,6 +1174,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0.17254902, g: 0.12941177, b: 0.47058824, a: 1}
   m_EffectDistance: {x: -1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &4794355043860878892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6622685579802077282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9de6a0fc697cf547840daacba638cdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragRectTransform: {fileID: 0}
 --- !u!1 &7978067250984837070
 GameObject:
   m_ObjectHideFlags: 0
