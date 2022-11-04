@@ -22,12 +22,12 @@ public class Home_Icon : MonoBehaviour
     
     private void OpenMenuPanel() 
     {
-        LeanTween.moveY(menuPanel, 240f, 0.3f);
+        LeanTween.moveY(menuPanel, 0.0001f, 0.3f);
     }
 
     private void CloseMenuPanel()
     {
-        LeanTween.moveY(menuPanel, -240f, 0.3f);
+        LeanTween.moveY(menuPanel, -0.0001f, 0.3f);
     }
     
 }
