@@ -5,13 +5,11 @@ public class Home_Icon : MonoBehaviour
 {
     [SerializeField] private GameObject menuPanel;
     [SerializeField] private RectTransform dragRectTransform;
-    private bool on = false;
+    private bool opened = false;
 
     public void ToggleMenuPanel()
     {
-        on = !on;
-        
-        if(on)
+        if(!opened)
         {
             OpenMenuPanel();
             return;
@@ -22,12 +20,14 @@ public class Home_Icon : MonoBehaviour
     
     private void OpenMenuPanel() 
     {
-        LeanTween.moveY(menuPanel, 0.0001f, 0.3f);
+        LeanTween.moveY(dragRectTransform, 250f, 0.3f);
+        opened = true;
     }
 
     private void CloseMenuPanel()
     {
-        LeanTween.moveY(menuPanel, -0.0001f, 0.3f);
+        LeanTween.moveY(dragRectTransform, -230f, 0.3f);
+        opened = false;
     }
     
 }
