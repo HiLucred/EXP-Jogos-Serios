@@ -9,8 +9,9 @@ public class Email : MonoBehaviour
     [Header("E-mail Aside")]
     [SerializeField] private TextMeshProUGUI authorAside;
     [SerializeField] private TextMeshProUGUI subjectAside;
-    
-    [Header("E-mail Body")]
+
+    [Header("E-mail Body")] 
+    [SerializeField] private GameObject contentPanel;
     [SerializeField] private TextMeshProUGUI titleBody;
     [SerializeField] private TextMeshProUGUI authorBody;
     [SerializeField] private TextMeshProUGUI dateBody;
@@ -34,6 +35,7 @@ public class Email : MonoBehaviour
     
     public void OpenEmail()
     {
+        LeanTween.scale(contentPanel, new Vector3(1, 1, 1), 0.3f);
         titleBody.text = title;
         contentBody.text = content;
         authorBody.text = author;

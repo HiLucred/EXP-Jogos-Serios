@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
+
 public class Open_and_Close_Panels : MonoBehaviour
 {
     [SerializeField] private RectTransform dragRectTransform;
@@ -16,7 +18,7 @@ public class Open_and_Close_Panels : MonoBehaviour
 
     public void OpenPanel(GameObject panel)
     {
-        LeanTween.scale(panel, new Vector3(1, 1, 1), 0.3f);
         dragRectTransform.SetAsLastSibling();
+        LeanTween.scale(panel, new Vector3(1, 1, 1), 0.3f);
     }
 }

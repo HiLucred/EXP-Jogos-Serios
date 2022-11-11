@@ -1,9 +1,5 @@
-using System;
 using TMPro;
-using TMPro.EditorUtilities;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class Unlock_File : MonoBehaviour
 {

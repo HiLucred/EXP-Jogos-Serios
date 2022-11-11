@@ -11,8 +11,7 @@ public class Notification : MonoBehaviour
 
     private void Start()
     {
-        OpenNotification("seu dispositivo está em modo de bloqueio. " +
-                         "utilize o meio nescessário para voltar ao modo normal");
+        StartCoroutine(nameof(InitialNotification));
     }
 
     public void OpenNotification(string notification)
@@ -24,5 +23,12 @@ public class Notification : MonoBehaviour
     public void CloseNotificaiton()
     {
         LeanTween.moveX(notificationBar, 70f, 0.3f);
+    }
+
+    private IEnumerator InitialNotification()
+    {
+        yield return new WaitForSeconds(1f);
+        OpenNotification("seu dispositivo está bloqueado." +
+                         " para o desbloqueio, é nescessário o uso do terminal.");
     }
 }

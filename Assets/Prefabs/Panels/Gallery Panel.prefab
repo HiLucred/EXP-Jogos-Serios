@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Title Windom
+  m_text: Galeria
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7daef05d2ca25de46863afb00df66cbe, type: 2}
   m_sharedMaterial: {fileID: 5834256719404298411, guid: 7daef05d2ca25de46863afb00df66cbe, type: 2}

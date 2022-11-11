@@ -9,7 +9,7 @@ public class Historic : MonoBehaviour
     [SerializeField] private TextMeshProUGUI text2;
     [SerializeField] private TextMeshProUGUI text3;
     [SerializeField] private TextMeshProUGUI text4;
-
+    
     public void ChangePostItOne(string newText)
     {
         text.text = newText;

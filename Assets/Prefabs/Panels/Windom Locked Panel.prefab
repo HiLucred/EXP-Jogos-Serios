@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Title Windom
+  m_text: Sistema desbloqueado
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7daef05d2ca25de46863afb00df66cbe, type: 2}
   m_sharedMaterial: {fileID: 5834256719404298411, guid: 7daef05d2ca25de46863afb00df66cbe, type: 2}
@@ -820,8 +820,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc696e173e2e1ee449c62848d8c02dca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputText: {fileID: 6580230738966826832}
-  inputFieldText: {fileID: 6580230737965639740}
+  inputText: {fileID: 0}
+  inputFieldText: {fileID: 0}
   password: elliot smith
   alternativePassword: Elliot Smith
 --- !u!114 &6580230737965639736
